@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>git and github practice</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Git And Github</h1>
+<p>To open cmd on win7 windows+R input cmd</p>
+<p>Open a folder with gitbash</p>
+<p>To know the version $git --version<br>
+To create a new file in folder $touch index.html<br>
+To create a new repository $git init,
+To Add name and email to git <br>
+$git config --global user.name 'Your Name here'<br>
+$git config --global user.email 'Your email here'<br>
+To add specific file to the local repository<br>
+$git add index.html<br>
+To check status of added files<br>
+$git status
+To remove files from the local repository<br>
+$git rm --cached index.html<br>
+To add all of the files of a specicific file type(e.g html)<br>
+git add *.html<br>
+To add all the files and regardless of file type or extension<br>
+$git add . <br>
+To commit files (1st Method) <br>
+$git commit  <br>
+Press I>>NB:# means its commented, So remove the # to name the commit>>(to get out)>>Click esc>>type:wq>> Press Enter <br>
+To commit files to the master branch (2nd Method)<br>
+$git commit -m 'Comment here'<br>
+To not add a file even when to you command to add all file ...gitignore<br>
+say you wanted to not add a file "log.txt" first>> create the gitignore<br>
+$ touch .gitignore
+also create the "log.txt" file now open the gitignore file in your text editor and input the file you don't want to add "log.txt" then save<br>
+Now press $ git add . and you won't see the log.txt file 
+
+</p>
+</body>
+</html>
